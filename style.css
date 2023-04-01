@@ -25,7 +25,7 @@ header{
     margin: 0%;
     padding: 10px;
     width: auto;
-    height: 8vw;
+    height: 80px;
     background-image: linear-gradient(to bottom, blue,black);
     background-attachment: fixed;
 }
@@ -33,8 +33,8 @@ header{
 details{
     margin: 0%;
     position: absolute;
-    width: 8vw;
-    height: 8vw;
+    width: 70px;
+    height: 70px;
     font-size: 0px;
 }
 
@@ -95,7 +95,7 @@ summary > img{
 h1{
     margin: auto;
     font-family: 'space';
-    font-size: 5vw;
+    font-size: 2.3em;
     font-weight: bolder;
     color: white;
     text-shadow: 0.5vw 0px 0px black;
@@ -145,7 +145,7 @@ main{
 
 .frame{
     width: 99%;
-    height: 500px;
+    height: 400px;
 }
 
 iframe{
