@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face {
-    font-family: 'space';
-    src: url(Fonts/Space\ Crusaders.ttf) format(truetype);
+    font-family: 'bebas';
+    src: url(Fonts/BebasNeue-Regular.ttf) format(truetype);
 }
 @font-face {
     font-family: 'droid';
@@ -31,7 +31,6 @@ header{
 }
 
 details{
-    margin: 0%;
     position: absolute;
     width: 70px;
     height: 70px;
@@ -59,7 +58,7 @@ summary > img{
 }
 
 .redes{
-    width: max-content;
+    width: 140px;
     margin: 0px 0px 0px 0vw;
 }
 
@@ -79,11 +78,9 @@ summary > img{
 }
 
 .redes > a:hover{
-    margin: 0px -5px 0px -5px;
-    padding: 7px;
     font-size: 18px;
     background-color: white;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .redes > a > img{
@@ -94,9 +91,10 @@ summary > img{
 
 h1{
     margin: auto;
-    font-family: 'space';
-    font-size: 2.3em;
+    font-family: 'bebas';
+    font-size: 3em;
     font-weight: bolder;
+    text-decoration: underline;
     color: white;
     text-shadow: 0.5vw 0px 0px black;
     -webkit-text-stroke: 0.5px black;
