@@ -14,8 +14,9 @@
 
 body{
     margin: 0%;
+    padding: 0%;
     background-image: url(imagens/fundo.jpg);
-    background-position: center;
+    background-position: center center;
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -28,6 +29,7 @@ header{
     height: 80px;
     background-image: linear-gradient(to bottom, blue,black);
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 details{
@@ -92,7 +94,7 @@ summary > img{
 h1{
     margin: auto;
     font-family: 'bebas';
-    font-size: 3em;
+    font-size: 2em;
     font-weight: bolder;
     text-decoration: underline;
     color: white;
@@ -102,7 +104,7 @@ h1{
 
 main{
     width: 90%;
-    height: auto;
+    height: min-content;
     margin: auto;
     padding: 20px;
     background-color: rgba(255, 255, 255, 0.200);
@@ -143,7 +145,7 @@ main{
 
 .frame{
     width: 99%;
-    height: 400px;
+    height: 450px;
 }
 
 iframe{
