@@ -16,8 +16,10 @@ body{
     margin: 0%;
     padding: 0%;
     background-image: url(imagens/fundo.jpg);
-    background-position: center center;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -145,10 +147,10 @@ main{
 
 .frame{
     width: 99%;
-    height: 450px;
+    height: 430px;
 }
 
-iframe{
+.frame > iframe{
     width: 100%;
     height: 100%;
     border: 5px solid black;
