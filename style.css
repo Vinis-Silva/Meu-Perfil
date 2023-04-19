@@ -17,9 +17,7 @@ body{
     padding: 0%;
     background-image: url(imagens/fundo.jpg);
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: black;
+    background-position: center center;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -147,7 +145,7 @@ main{
 
 .frame{
     width: 99%;
-    height: 460px;
+    height: 400px;
 }
 
 .frame > iframe{
@@ -155,4 +153,32 @@ main{
     height: 100%;
     border: 5px solid black;
     border-radius: 10px;
+}
+
+.cert{
+    width: auto;
+    height: min-content;
+    padding: 0px 0px 10px 0px;
+    background-image: linear-gradient(to bottom, blue,black);
+    text-align: center;
+    border-top: 5px solid black;
+}
+
+.cert > h1{
+    padding: 20px 0px 0px 0px;
+}
+
+.cert > div{
+    display: inline-block;
+    margin: 10px 20px 10px 20px;
+    width: 20vw;
+    height: 20vw;
+    background-color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.cert > div:hover{
+    background-color: rgba(255, 255, 255, 0.700);
+    transition: 0.5s;
 }
