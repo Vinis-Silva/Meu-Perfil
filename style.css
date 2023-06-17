@@ -18,6 +18,7 @@ body{
     background-image: url(imagens/fundo.jpg);
     background-size: cover;
     background-position: center center;
+    background-repeat: no-repeat;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -40,17 +41,21 @@ details{
 }
 
 summary{
+    position: absolute;
     width: 100%;
     height: 100%;
     border: 2px solid black;
     border-radius: 100%;
 }
 
-
 summary:hover{
-    border-radius: 100%;
     border: 2px solid white;
     transition: 0.5s;
+}
+
+details[open] > summary{
+    left: 43%;
+    transition: 1s;
 }
 
 summary > img{
@@ -59,9 +64,21 @@ summary > img{
     border-radius: 100%;
 }
 
+.fundoredes{
+    width: 160px;
+    height: 100vh;
+    margin: -10px 0px 0px -10px;
+    padding: 100px 0px 0px 0px;
+    background-image: linear-gradient(to bottom, black, blue);
+    border-bottom: 2px solid white;;
+    border-right: 2px solid white;
+    border-bottom-right-radius: 80px;
+
+}
+
 .redes{
-    width: 140px;
-    margin: 0px 0px 0px 0vw;
+    width: 125px;
+    margin: auto;
 }
 
 .redes > a{
@@ -105,8 +122,8 @@ h1{
 main{
     width: 92%;
     height: min-content;
-    margin: auto;
-    padding: 20px 10px 20px 10px;
+    margin: 0% auto 0% auto;
+    padding: 20px 10px 10px 10px;
     background-color: rgba(255, 255, 255, 0.200);
     box-shadow: 0px 0px 10px black;
     text-align: center;
@@ -152,10 +169,4 @@ main{
     height: 100%;
     border: 5px solid black;
     border-radius: 10px;
-}
-
-.rodape{
-    background-color: blue;
-    width: auto;
-    height: 20px;
 }
