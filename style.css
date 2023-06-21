@@ -161,7 +161,7 @@ main{
 
 .frame{
     width: 99%;
-    height: 400px;
+    height: 500px;
 }
 
 .frame > iframe{
@@ -169,4 +169,10 @@ main{
     height: 100%;
     border: 5px solid black;
     border-radius: 10px;
+}
+
+.rodape{
+    width: auto;
+    height: 10px;
+    background-color: black;
 }
