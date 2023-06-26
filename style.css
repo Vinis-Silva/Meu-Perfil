@@ -66,13 +66,12 @@ summary > img{
 
 .fundoredes{
     width: 160px;
-    height: 500px;
+    height: 593px;
     margin: -10px 0px 0px -10px;
     padding: 100px 0px 0px 0px;
     background-image: linear-gradient(to bottom, black, blue);
     border-bottom: 2px solid white;;
     border-right: 2px solid white;
-    border-bottom-right-radius: 80px;
 
 }
 
